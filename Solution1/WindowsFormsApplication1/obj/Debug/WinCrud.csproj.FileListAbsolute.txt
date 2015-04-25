@@ -1,0 +1,28 @@
+c:\Users\Jo\documents\visual studio 2012\Projects\Solution1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+c:\Users\Jo\documents\visual studio 2012\Projects\Solution1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+c:\Users\Jo\documents\visual studio 2012\Projects\Solution1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+c:\Users\Jo\documents\visual studio 2012\Projects\Solution1\WindowsFormsApplication1\obj\Debug\WinCrud.csprojResolveAssemblyReference.cache
+c:\Users\Jo\documents\visual studio 2012\Projects\Solution1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+c:\Users\Jo\documents\visual studio 2012\Projects\Solution1\WindowsFormsApplication1\obj\Debug\WinCrud.csproj.GenerateResource.Cache
+c:\Users\Jo\documents\visual studio 2012\Projects\Solution1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+c:\Users\Jo\documents\visual studio 2012\Projects\Solution1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\Jo\documents\visual studio 2012\Projects\Solution1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.AddPage.resources
+C:\Users\Jo\documents\visual studio 2012\Projects\Solution1\WindowsFormsApplication1\bin\Debug\MySql.Data.dll
+C:\Users\Jo\documents\visual studio 2012\Projects\Solution1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmFisrtPage.resources
+C:\Users\Jo\documents\visual studio 2012\Projects\Solution1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmLogin.resources
+C:\Users\Jo\documents\visual studio 2012\Projects\Solution1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmGeneral.resources
+C:\Users\Jo\documents\visual studio 2012\Projects\Solution1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmLista.resources
+C:\Users\Jo\Documents\GitHub\CP2Cadastro\Solution1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Jo\Documents\GitHub\CP2Cadastro\Solution1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\Jo\Documents\GitHub\CP2Cadastro\Solution1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\Jo\Documents\GitHub\CP2Cadastro\Solution1\WindowsFormsApplication1\obj\Debug\WinCrud.csprojResolveAssemblyReference.cache
+C:\Users\Jo\Documents\GitHub\CP2Cadastro\Solution1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.AddPage.resources
+C:\Users\Jo\Documents\GitHub\CP2Cadastro\Solution1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmFisrtPage.resources
+C:\Users\Jo\Documents\GitHub\CP2Cadastro\Solution1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmLogin.resources
+C:\Users\Jo\Documents\GitHub\CP2Cadastro\Solution1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmGeneral.resources
+C:\Users\Jo\Documents\GitHub\CP2Cadastro\Solution1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmLista.resources
+C:\Users\Jo\Documents\GitHub\CP2Cadastro\Solution1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Jo\Documents\GitHub\CP2Cadastro\Solution1\WindowsFormsApplication1\obj\Debug\WinCrud.csproj.GenerateResource.Cache
+C:\Users\Jo\Documents\GitHub\CP2Cadastro\Solution1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\Jo\Documents\GitHub\CP2Cadastro\Solution1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\Jo\Documents\GitHub\CP2Cadastro\Solution1\WindowsFormsApplication1\bin\Debug\MySql.Data.dll
