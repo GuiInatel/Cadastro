@@ -32,6 +32,7 @@
             this.tabSelect = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.grpPessoal = new System.Windows.Forms.GroupBox();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.label24 = new System.Windows.Forms.Label();
             this.txtEndBairro = new System.Windows.Forms.TextBox();
             this.label23 = new System.Windows.Forms.Label();
@@ -90,6 +91,7 @@
             this.btnConfirmar = new System.Windows.Forms.Button();
             this.btnExcluir = new System.Windows.Forms.Button();
             this.menuLista = new System.Windows.Forms.ToolStripMenuItem();
+            this.perfilToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.addMembros = new System.Windows.Forms.ToolStripMenuItem();
             this.listaMembros = new System.Windows.Forms.ToolStripMenuItem();
             this.menuCadastro = new System.Windows.Forms.ToolStripMenuItem();
@@ -99,8 +101,6 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.sobreToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sairaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.perfilToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tabSelect.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.grpPessoal.SuspendLayout();
@@ -173,6 +173,18 @@
             this.grpPessoal.Size = new System.Drawing.Size(777, 395);
             this.grpPessoal.TabIndex = 43;
             this.grpPessoal.TabStop = false;
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Checked = true;
+            this.radioButton1.Location = new System.Drawing.Point(441, 206);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(63, 17);
+            this.radioButton1.TabIndex = 67;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "Membro";
+            this.radioButton1.UseVisualStyleBackColor = true;
             // 
             // label24
             // 
@@ -707,6 +719,13 @@
             this.menuLista.Size = new System.Drawing.Size(70, 20);
             this.menuLista.Text = "Membros";
             // 
+            // perfilToolStripMenuItem
+            // 
+            this.perfilToolStripMenuItem.Name = "perfilToolStripMenuItem";
+            this.perfilToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
+            this.perfilToolStripMenuItem.Text = "Perfil";
+            this.perfilToolStripMenuItem.Click += new System.EventHandler(this.perfilToolStripMenuItem_Click);
+            // 
             // addMembros
             // 
             this.addMembros.Name = "addMembros";
@@ -774,25 +793,6 @@
             this.sairaToolStripMenuItem.Size = new System.Drawing.Size(38, 20);
             this.sairaToolStripMenuItem.Text = "Sair";
             // 
-            // radioButton1
-            // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Checked = true;
-            this.radioButton1.Location = new System.Drawing.Point(441, 206);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(63, 17);
-            this.radioButton1.TabIndex = 67;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Membro";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            // 
-            // perfilToolStripMenuItem
-            // 
-            this.perfilToolStripMenuItem.Name = "perfilToolStripMenuItem";
-            this.perfilToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
-            this.perfilToolStripMenuItem.Text = "Perfil";
-            this.perfilToolStripMenuItem.Click += new System.EventHandler(this.perfilToolStripMenuItem_Click);
-            // 
             // frmGeneral
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -811,6 +811,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cadastro CP2";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmGeneral_FormClosed);
+            this.Load += new System.EventHandler(this.frmGeneral_Load);
             this.tabSelect.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.grpPessoal.ResumeLayout(false);

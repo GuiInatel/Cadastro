@@ -40,3 +40,17 @@ C:\Users\Daniel\Documents\GitHub\Cadastro\Solution1\WindowsFormsApplication1\obj
 C:\Users\Daniel\Documents\GitHub\Cadastro\Solution1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmLista.resources
 C:\Users\Daniel\Documents\GitHub\Cadastro\Solution1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
 C:\Users\Daniel\Documents\GitHub\Cadastro\Solution1\WindowsFormsApplication1\obj\Debug\WinCrud.csproj.GenerateResource.Cache
+C:\Users\Jo\Documents\GitHub\Cadastro\Solution1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+C:\Users\Jo\Documents\GitHub\Cadastro\Solution1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+C:\Users\Jo\Documents\GitHub\Cadastro\Solution1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
+C:\Users\Jo\Documents\GitHub\Cadastro\Solution1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Users\Jo\Documents\GitHub\Cadastro\Solution1\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Users\Jo\Documents\GitHub\Cadastro\Solution1\WindowsFormsApplication1\bin\Debug\MySql.Data.dll
+C:\Users\Jo\Documents\GitHub\Cadastro\Solution1\WindowsFormsApplication1\obj\Debug\WinCrud.csprojResolveAssemblyReference.cache
+C:\Users\Jo\Documents\GitHub\Cadastro\Solution1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.AddPage.resources
+C:\Users\Jo\Documents\GitHub\Cadastro\Solution1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmFisrtPage.resources
+C:\Users\Jo\Documents\GitHub\Cadastro\Solution1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmLogin.resources
+C:\Users\Jo\Documents\GitHub\Cadastro\Solution1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmGeneral.resources
+C:\Users\Jo\Documents\GitHub\Cadastro\Solution1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmLista.resources
+C:\Users\Jo\Documents\GitHub\Cadastro\Solution1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\Jo\Documents\GitHub\Cadastro\Solution1\WindowsFormsApplication1\obj\Debug\WinCrud.csproj.GenerateResource.Cache

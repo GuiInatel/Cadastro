@@ -21,7 +21,7 @@ namespace WindowsFormsApplication1
             frmGeneral_Load();
         }
 
-        void frmGeneral_Load()
+        void frmGeneral_Load(object sender, EventArgs e)
         {
             List<Empresarios> empresarios = new List<Empresarios>();
             Empresarios empresario = new Empresarios();
@@ -300,6 +300,11 @@ namespace WindowsFormsApplication1
             dbAtivo.Checked = empresario.ativo;
             Program.edicao = true;
             check = rbAdmin.Checked;
+        }
+
+        private void frmGeneral_Load()
+        {
+
         }
 
     }  

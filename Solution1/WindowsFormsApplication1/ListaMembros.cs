@@ -161,13 +161,27 @@ namespace WindowsFormsApplication1
                 {
                     try
                     {
-                        emp = dbconnect.SelectNome(txtNome.Text);
+                        empresarios = dbconnect.SelectNome(txtNome.Text);
                     }
                     catch (Exception ex)
                     {
-                        
                         MessageBox.Show("Erro ao buscar informação:"+ex.Message);
                     }
+                    for (int i = 0; i < empresarios.Count; i++)
+                    {
+
+                        if (empresarios[i].ativo == true)
+                        {
+                            listLista.Add(new Lista() { name = empresarios[0].nome, cod = empresarios[0].codigo, nucleo = empresarios[0].setor, ativo = "Ativo" });
+                        }
+                        else
+                        {
+                            listLista.Add(new Lista() { name = empresarios[0].nome, cod = empresarios[0].codigo, nucleo = empresarios[0].setor, ativo = "Inativo" });
+                        }
+                    }
+                    grvDados.DataSource = listLista;
+                    grvDados.Refresh();
+
                 }
 
             }
@@ -196,15 +210,29 @@ namespace WindowsFormsApplication1
 
         private void btnVizualizar_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Program.edicao = false;
-            Program.Perfil = (int)grvDados.CurrentRow.Cells[0].Value;
 
-            using (frmGeneral frm = new frmGeneral())
+            try
             {
-                frm.perfil();
-                frm.ShowDialog();
+                this.Hide();
+                Program.edicao = false;
+                Program.Perfil = (int)grvDados.CurrentRow.Cells[0].Value;
+
+                using (frmGeneral frm = new frmGeneral())
+                {
+                    frm.perfil();
+                    frm.ShowDialog();
+                }
             }
+            catch (Exception)
+            {
+                MessageBox.Show("Selecione um Membro!");
+                using (frmLista frm = new frmLista())
+                {
+                    this.Close();
+                    frm.ShowDialog();
+                }
+            }
+            
         }
     }
 }

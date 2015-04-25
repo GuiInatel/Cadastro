@@ -32,7 +32,7 @@ namespace WindowsFormsApplication1
             database = "cp2cadastro";
             //database = "test";
             uid = "root";
-            password = "123456";
+            password = "165145jgr";
             string connectionString;
             connectionString = "SERVER=" + server + ";" + "DATABASE=" +
             database + ";" + "UID=" + uid + ";" + "PASSWORD=" + password + ";";
@@ -249,12 +249,16 @@ namespace WindowsFormsApplication1
         }
 
         //retorna por nome
-        public Empresarios SelectNome(string nome)
+        public List<Empresarios> SelectNome(string nome)
         {
-            Empresarios empresarios = new Empresarios();
+            List<Empresarios> empresariosList = new List<Empresarios>();
 
             //query
-            string query = "SELECT * FROM empresarios where nome ='" + nome + "'";
+            //SELECT city
+            //FROM customers
+            //"SELECT * FROM Contatos WHERE nome LIKE '"+txtPesquisar.Text+"%'ORDER BY nome ASC"
+            //ORDER BY city;
+            string query = "SELECT * FROM empresarios WHERE nome LIKE '" + nome + "%' ORDER BY nome ASC";
             //Open connection
             if (this.OpenConnection() == true)
             {
@@ -267,6 +271,8 @@ namespace WindowsFormsApplication1
                     //Read the data and store them in the list
                     while (dataReader.Read())
                     {
+                        Empresarios empresarios= new Empresarios();
+
                         empresarios.nome = (string)dataReader["nome"];
                         empresarios.id = (int)dataReader["id"];
                         empresarios.codigo = (int)dataReader["codigo"];
@@ -286,6 +292,7 @@ namespace WindowsFormsApplication1
                         empresarios.faltas = (int)dataReader["faltas"];
                         empresarios.telefone = (string)dataReader["telefone"];
                         empresarios.cpf = (string)dataReader["cpf"];
+                        empresariosList.Add(empresarios);
                     }
 
 
@@ -296,12 +303,12 @@ namespace WindowsFormsApplication1
                     this.CloseConnection();
 
                     //return list to be displayed
-                    return empresarios;
+                    return empresariosList;
                 }
             }
             else
             {
-                return empresarios;
+                return empresariosList;
             }
         }
 
