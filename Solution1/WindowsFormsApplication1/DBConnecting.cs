@@ -32,7 +32,7 @@ namespace WindowsFormsApplication1
             database = "cp2cadastro";
             //database = "test";
             uid = "root";
-            password = "165145jgr";
+            password = "123456";
             string connectionString;
             connectionString = "SERVER=" + server + ";" + "DATABASE=" +
             database + ";" + "UID=" + uid + ";" + "PASSWORD=" + password + ";";
@@ -154,8 +154,8 @@ namespace WindowsFormsApplication1
                     Empresarios empresarios = new Empresarios();
                     
                     empresarios.nome = (string)dataReader["nome"];
-                    empresarios.id = (int)dataReader["id"];
-                    empresarios.codigo = (int)dataReader["codigo"];
+                    empresarios.id = int.Parse(dataReader["id"].ToString());
+                    empresarios.codigo = int.Parse(dataReader["codigo"].ToString());
                     empresarios.imagem = (string)dataReader["imagem"];
                     empresarios.setor = (string)dataReader["setor"];
                     empresarios.cargo = (string)dataReader["cargo"];
@@ -163,13 +163,13 @@ namespace WindowsFormsApplication1
                     empresarios.dataSaida = (DateTime)dataReader["dataSaida"];
                     empresarios.dedicatoria = (string)dataReader["dedicatoria"];
                     empresarios.atividade = (string)dataReader["atividade"];
-                    empresarios.rg = (int)dataReader["rg"];
+                    empresarios.rg = int.Parse(dataReader["rg"].ToString());
                     empresarios.endereco = (string)dataReader["endereco"];
-                    empresarios.endNum = (int)dataReader["endNum"];
+                    empresarios.endNum = int.Parse(dataReader["endNum"].ToString());
                     empresarios.endBairro = (string)dataReader["endBairro"];
                     empresarios.login = (bool)dataReader["login"];
                     empresarios.ativo = (bool)dataReader["ativo"];
-                    empresarios.faltas = (int)dataReader["faltas"];
+                    empresarios.faltas = int.Parse(dataReader["faltas"].ToString());
                     empresarios.telefone = (string)dataReader["telefone"];//erro ao buscar informação de telefone e cpf
                     empresarios.cpf = (string)dataReader["cpf"];//provavel erro de variavel no banco de dados
                     empresarios.curso = (string)dataReader["curso"];
