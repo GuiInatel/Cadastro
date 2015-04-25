@@ -84,5 +84,14 @@ namespace WindowsFormsApplication1
                 generalPage.ShowDialog();
             }
         }
+
+        private void toolStripMenuItem3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            using (frmRelatorio frmrelatorio = new frmRelatorio())
+            {
+                frmrelatorio.ShowDialog();
+            }
+        }
     }
 }
