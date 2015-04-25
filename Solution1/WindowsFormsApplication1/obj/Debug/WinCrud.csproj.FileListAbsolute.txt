@@ -60,3 +60,6 @@ C:\Users\Daniel\Documents\GitHub\Cadastro\Solution1\WindowsFormsApplication1\obj
 C:\Users\Daniel\Documents\GitHub\Cadastro\Solution1\WindowsFormsApplication1\obj\Debug\RdlCompile.cache
 C:\Users\Daniel\Documents\GitHub\Cadastro\Solution1\WindowsFormsApplication1\obj\Debug\RdlCompile.compiled
 >>>>>>> origin/master
+C:\Users\Jo\Documents\GitHub\Cadastro\Solution1\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.frmRelatorio.resources
+C:\Users\Jo\Documents\GitHub\Cadastro\Solution1\WindowsFormsApplication1\obj\Debug\RdlCompile.cache
+C:\Users\Jo\Documents\GitHub\Cadastro\Solution1\WindowsFormsApplication1\obj\Debug\RdlCompile.compiled

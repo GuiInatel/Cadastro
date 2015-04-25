@@ -811,7 +811,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cadastro CP2";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmGeneral_FormClosed);
-            this.Load += new System.EventHandler(this.frmGeneral_Load);
+            //this.Load += new System.EventHandler(this.frmGeneral_Load);
             this.tabSelect.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.grpPessoal.ResumeLayout(false);

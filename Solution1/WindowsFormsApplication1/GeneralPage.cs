@@ -21,7 +21,7 @@ namespace WindowsFormsApplication1
             frmGeneral_Load();
         }
 
-        void frmGeneral_Load(object sender, EventArgs e)
+        void frmGeneral_Load()
         {
             List<Empresarios> empresarios = new List<Empresarios>();
             Empresarios empresario = new Empresarios();
@@ -302,10 +302,10 @@ namespace WindowsFormsApplication1
             check = rbAdmin.Checked;
         }
 
-        private void frmGeneral_Load()
-        {
+        //private void frmGeneral_Load()
+        //{
 
-        }
+        //}
 
     }  
 }
